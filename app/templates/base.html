@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hormona AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <!-- Ambient floating petals -->
+  <div class="petal-bg" aria-hidden="true">
+    <span class="petal p1">🌸</span>
+    <span class="petal p2">🌺</span>
+    <span class="petal p3">🌸</span>
+    <span class="petal p4">🌷</span>
+    <span class="petal p5">🌸</span>
+    <span class="petal p6">🌺</span>
+  </div>
+
+  <nav class="nav">
+    <div class="nav-brand">
+      <span class="nav-logo">🌸</span>
+      <span class="nav-title">Hormona AI</span>
+    </div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/demo" class="nav-cta">Try Demo</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+
+  <footer class="site-footer">
+    <p>Made with 🌸 for every woman's wellness journey</p>
+  </footer>
+
+</body>
+</html>
