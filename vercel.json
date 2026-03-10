@@ -1,9 +1,10 @@
 {
-  "functions": {
-    "api/index.py": {
-      "runtime": "now-php@1.0.0"
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/(.*)",
