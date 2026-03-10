@@ -58,7 +58,7 @@ hormona-ai/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hormona-ai.git
+git clone https://github.com/sreevidyaps/Hormona_AI.git
 cd hormona-ai
 ```
 
@@ -85,18 +85,6 @@ uvicorn app.main:app --reload
 ```
 
 Open [http://localhost:8000](http://localhost:8000) in your browser.
-
----
-
-## 🌐 Deploy to Railway (free)
-
-1. Push the project to a GitHub repository
-2. Go to [railway.app](https://railway.app) → **New Project → Deploy from GitHub repo**
-3. Select your repo — Railway auto-detects Python
-4. Your app will be live at a `.railway.app` URL in ~2 minutes
-
-> Make sure your `requirements.txt` is present and your start command is:
-> `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
 
 ---
 
